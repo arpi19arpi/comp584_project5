@@ -1,7 +1,7 @@
 let sum = 0;
 
 // loop through command line arguments starting from index 2 becausse
-// the first two elements are 'node' and the script name
+// the first two elements are 'node' and the file name
 for (let i = 2; i < process.argv.length; i++) {
   sum += Number(process.argv[i]); // convert each argument to a number and add it to sum
 }
